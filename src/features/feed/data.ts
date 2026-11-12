@@ -1,0 +1,43 @@
+import type { FeedPost } from "./types";
+
+export const initialPosts: FeedPost[] = [
+  {
+    id: "post-1",
+    author: "Maya Chen",
+    handle: "mayachen",
+    initials: "MC",
+    avatarColor: "#B9D6C2",
+    time: "12 min",
+    location: "Lalbagh Botanical Garden",
+    body: "A slow morning among the trees was exactly what I needed. Bengaluru has a way of making even a short walk feel like an escape. 🌿",
+    imageLabel: "A quiet green morning",
+    imageColor: "#DCE9D8",
+    likes: 28,
+    comments: 6,
+  },
+  {
+    id: "post-2",
+    author: "Arjun Rao",
+    handle: "arjunrao",
+    initials: "AR",
+    avatarColor: "#F1C7A8",
+    time: "38 min",
+    body: "Anyone up for a weekend coffee and a conversation about side projects? I’ll be around Indiranagar on Saturday.",
+    likes: 14,
+    comments: 11,
+  },
+  {
+    id: "post-3",
+    author: "Leah Williams",
+    handle: "leahw",
+    initials: "LW",
+    avatarColor: "#D8C7E8",
+    time: "1 hr",
+    location: "Cubbon Park",
+    body: "Our little community run is growing every week. No pace goals, just fresh air and good company. See you Sunday!",
+    imageLabel: "Sunday community run",
+    imageColor: "#E9D8CC",
+    likes: 42,
+    comments: 9,
+  },
+];

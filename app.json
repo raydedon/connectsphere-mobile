@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "ConnectSphere",
+    "slug": "connectsphere-mobile",
+    "scheme": "connectspheremobile",
+    "extra": {
+      "eas": {
+        "projectId": "be21d0d3-2892-426b-9793-d6a586f7a17e"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.raydedon.connectspheremobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.raydedon.connectspheremobile"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
+  }
+}
