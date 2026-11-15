@@ -20,6 +20,16 @@ const people = [
   { name: "Arjun", initials: "AR", color: "#F1C7A8" },
   { name: "Leah", initials: "LW", color: "#D8C7E8" },
   { name: "Noah", initials: "NK", color: "#E8D99C" },
+  { name: "Priya", initials: "PS", color: "#F2B8B5" },
+  { name: "Liam", initials: "LO", color: "#B5D3E7" },
+  { name: "Sofia", initials: "SR", color: "#F5D5A4" },
+  { name: "Kenji", initials: "KT", color: "#C4E0C8" },
+  { name: "Amara", initials: "AO", color: "#E3B7D6" },
+  { name: "Diego", initials: "DM", color: "#F0C9B0" },
+  { name: "Hana", initials: "HP", color: "#BFD8D2" },
+  { name: "Ethan", initials: "EB", color: "#D9D2EE" },
+  { name: "Zara", initials: "ZK", color: "#EDDDA6" },
+  { name: "Omar", initials: "OH", color: "#B8C9E8" },
 ];
 
 export default function FeedScreen() {

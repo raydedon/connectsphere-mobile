@@ -35,6 +35,10 @@ There is no test runner configured yet.
 - `src/features/<feature>/` — feature modules (components, types, data) consumed by routes. `feed/` holds `FeedPost` type, `PostCard`, and mock `initialPosts`.
 - `tsconfig.json` defines an `@/*` → `./src/*` alias; existing code currently uses relative imports.
 
+### Auth
+
+Supabase Auth (email/password). Client: `src/lib/supabase.ts`; session context: `src/features/auth/SessionProvider.tsx`; routes guarded with `Stack.Protected` in `src/app/_layout.tsx`. Env vars in gitignored `.env.local` (template: `.env.example`). Supabase's original setup prompt is saved in `docs/supabase-quickstart.md`.
+
 ### Current state
 
 - No backend: the feed is in-memory mock data, and like/save/tab state lives in `useState` in `src/app/index.tsx`. Refresh is a simulated timeout.
